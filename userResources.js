@@ -12,10 +12,9 @@
     }
 
     window.addEventListener("DOMContentLoaded", () => {
-        // Add event listener for key combination Ctrl + Alt + Tilde
         document.addEventListener("keydown", (event) => {
             if (event.ctrlKey && event.altKey && event.key === "`") {
-                initEruda(); // Call the function to initialize Eruda
+                initEruda();
             }
         });
     });
